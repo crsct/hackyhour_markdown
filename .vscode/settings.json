@@ -1,0 +1,8 @@
+{
+    "markdown.marp.themes": [ 
+      "https://raw.githubusercontent.com/crsct/catppuccin-marp/master/css/catppuccin-macchiato.css",
+      "https://raw.githubusercontent.com/crsct/catppuccin-marp/master/css/catppuccin-latte.css",
+      "https://raw.githubusercontent.com/crsct/catppuccin-marp/master/css/catppuccin-frappe.css",
+      "https://raw.githubusercontent.com/crsct/catppuccin-marp/master/css/catppuccin-mocha.css",
+    ]
+}

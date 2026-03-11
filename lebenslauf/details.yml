@@ -1,0 +1,113 @@
+---
+# output:
+#   bookdown::pdf_document2:
+#     template: template.tex
+#     latex_engine: xelatex
+title: Software Engineer
+# Personal details
+name: Noah Stürtz
+address:
+  - Friedberg (Hessen)
+
+phone: "+49 1234 56789"
+email: noah\@email.com
+
+github:
+  slug: github.com/crsct
+  url: https://github.com/crsct
+
+# Sections
+
+intro: "Developer with insight from many perspectives, from sysadmin and devops to 3D model design, gamedevelopment and VR based optimization."
+
+skill:
+  - name: JavaScript
+    level: 60
+  - name: C++
+    level: 70
+  - name: Versatility
+    level: 75
+  - name: Linux
+    level: 90
+tool:
+  - name: Godot
+    level: 4
+  - name: Blender
+    level: 6
+  - name: LaTeX
+    level: 5
+
+language:
+  - name: German
+    level: Native
+  - name: English
+    level: Fluent (C1)
+
+hobbies:
+  Besides tinkering on electronics and cleaning up nature, I love to play competitive games.
+
+buffer:
+  - Linux, nix, DevOps
+  - 3D Printing, Gamedesign, XR
+  - Webdevelopment,
+  - Bioinformatics
+  - OpenSource, Sustainability
+
+experience:
+  - years: 2018
+    employer: Shopdeshop GmbH
+    job: Fullstack Developer
+    task:
+      - Webdevelopment of Webshop and the database interfaces
+      - \texttt{Laravel}\slashsep\texttt{Vue.js}
+    city: Frankfurt
+  - years: 2020--2022
+    employer: serversandmore GmbH
+    job: Backend Developer \& Sys Admin
+    task: 
+      - Developing a Cloudserver renting Webservice in addition to customer service of the legacy application.
+      - \texttt{Laravel}\slashsep\texttt{Vue.js}
+    city: Frankfurt
+  - years: 2022--2026
+    employer: Justus-Liebig-Universität
+    job: VR Developer / Web Developer
+    city: Gießen
+    task: 
+      - Designing and Developing of VR Games for university applications.
+      - \texttt{Godot}\slashsep\texttt{Blender}\slashsep\texttt{Armorpaint}
+  - years: 2025
+    employer: Pedagogy Psychology (JLU)
+    job: Software Engineer
+    city: Gießen
+    task:
+      - Interfacing with eyetracker and visualizing the gathered data
+      - \texttt{Python}\slashsep\texttt{Qt}\slashsep\texttt{Three.js}
+
+education:
+  - year: 2015
+    subject: Abitur
+    institute: Johann-Philipp-Reis-Schule
+    city: Friedberg
+    description: Informatik Leistungskurs
+  - year: 2022
+    subject: B.Sc. Medieninformatik
+    institute: Technische Hochschule Mittelhessen
+    description: 
+      - High Sustainability Cluster 
+      - \texttt{Kubernetes}\slashsep\texttt{Go}\slashsep\texttt{gRPC}
+    city: Friedberg
+  - year: 2025
+    subject: M.Sc. Bioinformatik und Systembiologie
+    institute: Justus-Liebig Universität
+    city: Gießen
+    description: 
+      - SYCL Implementation for ADP Compiler GAPC
+      - \texttt{SYCL}\slashsep\texttt{C++}
+
+#Settings
+# mainfont: FiraCode
+fontsize: 10pt
+# lang: de
+geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
+---
+
